@@ -9,7 +9,7 @@
                 <img src="img/content/aboutus/1.png" alt="Misión" class="inline">
                 <div class="aboutus">
                     <h4 class="red-orange nomargin">MISIÓN</h4>
-                    <p>Ser los mejores proveedores de artículos promocionales, maquinaría de impresión de gran formato e insumos de las artes gráficas, buscando crear una estrecha relación con nuestros clientes para brindar la mejor calidad en el servicio y suministro de los productos que ofrecemos.</p>
+                    <p>Ser los mejores proveedores de artículos promocionales, maquinaria de impresión de gran formato e insumos de las artes gráficas, buscando crear una estrecha relación con nuestros clientes para brindar la mejor calidad en el servicio y suministro de los productos que ofrecemos.</p>
                 </div>
             </div>
         </div>
