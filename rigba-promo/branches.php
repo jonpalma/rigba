@@ -89,7 +89,7 @@
                         <li><strong>Calle:</strong></li>
                         <li>Manuel San Felipe García #240</li>
                         <li><strong>Teléfono:</strong></li>
-                        <li>(871) 752-6365<br>(871) 752-6100<br>(871) 752-6938</li>
+                        <li>01 (800) 890 0428<br>(871) 752-6365<br>(871) 752-6100<br>(871) 752-6938</li>
                         <li><strong>C.P.</strong></li>
                         <li>27019</li>
                     </ul>

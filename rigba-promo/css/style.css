@@ -300,6 +300,10 @@ body {
     margin: 40px 25px;
 }
 
+.branch-states a:hover  {
+    text-decoration: none;
+}
+
 .contact-info img {
     display: block;
     margin: 20px auto;

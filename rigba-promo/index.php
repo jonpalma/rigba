@@ -152,36 +152,52 @@
         <h1 class="white">CONOCE NUESTRAS SUCURSALES EN:</h1>
         <div class="center-block">
             <div class="branch-states">
-                <img src="img/content/states/chihuahua.png" alt="Chihuahua">
-                <p class="white uppercase">Chihuahua</p>
+                <a href="branches.php#chihuahua">
+                    <img src="img/content/states/chihuahua.png" alt="Chihuahua">
+                    <p class="white uppercase">Chihuahua</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/nuevo-leon.png" alt="Nuevo León">
-                <p class="white uppercase">Nuevo León</p>
+               <a href="branches.php#nuevo-leon">
+                    <img src="img/content/states/nuevo-leon.png" alt="Nuevo León">
+                    <p class="white uppercase">Nuevo León</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/coahuila.png" alt="Coahuila">
-                <p class="white uppercase">Coahuila</p>
+                <a href="branches.php#coahuila">
+                    <img src="img/content/states/coahuila.png" alt="Coahuila">
+                    <p class="white uppercase">Coahuila</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/sonora.png" alt="Sonora">
-                <p class="white uppercase">Sonora</p>
+                <a href="branches.php#sonora">
+                    <img src="img/content/states/sonora.png" alt="Sonora">
+                    <p class="white uppercase">Sonora</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/durango.png" alt="Durango">
-                <p class="white uppercase">Durango</p>
+                <a href="branches.php#durango">
+                    <img src="img/content/states/durango.png" alt="Durango">
+                    <p class="white uppercase">Durango</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/sinaloa.png" alt="Sinaloa">
-                <p class="white uppercase">Sinaloa</p>
+                <a href="branches.php#sinaloa">
+                    <img src="img/content/states/sinaloa.png" alt="Sinaloa">
+                    <p class="white uppercase">Sinaloa</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/usa.png" alt="USA">
-                <p class="white uppercase">USA</p>
+                <a href="branches.php#usa">
+                    <img src="img/content/states/usa.png" alt="USA">
+                    <p class="white uppercase">USA</p>
+                </a>
             </div>
             <div class="branch-states">
-                <img src="img/content/states/china.png" alt="China">
-                <p class="white uppercase">China</p>
+                <a href="branches.php#china">
+                    <img src="img/content/states/china.png" alt="China">
+                    <p class="white uppercase">China</p>
+                </a>
             </div>
         </div>
     </div>
