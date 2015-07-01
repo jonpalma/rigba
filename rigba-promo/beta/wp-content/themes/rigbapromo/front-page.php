@@ -33,18 +33,18 @@
         <br class="vertmargin-tiny">
 		<?php if(strlen(CFS()->get('first_parallax_h1')) > 1) { ?>
 			<div class="center-block">
-				<a class="btn white-btn" href="products/"><?php echo CFS()->get('first_parallax_button'); ?></a>
+				<a class="btn white-btn" href="?page_id=114"><?php echo CFS()->get('first_parallax_button'); ?></a>
 			</div>
 		<?php } ?>
     </div>
 </div>
 <!-- END PARALLAX -->
 <!-- BEGIN ABOUTUS -->
-<div class="container vertpadding-big">
-    <h2 class="red-orange uppercase"><?php echo CFS()->get('about_us_header'); ?></h2>
-    <p class="vertmargin big"><?php echo CFS()->get('about_us_text'); ?></p>
+<div class="container">
+    <h2 class="red-orange uppercase vertmargin-big"><?php echo CFS()->get('about_us_header'); ?></h2>
+    <p class="negativemargin big"><?php echo CFS()->get('about_us_text'); ?></p>
     <div class="row vertmargin-big">
-        <div class="col-lg-6">
+        <div class="col-md-6">
             <div class="aboutus-wrapper">
                 <img src="<?php echo CFS()->get('mision_image'); ?>" alt="Misión" class="inline">
                 <div class="aboutus">
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-6">
             <div class="aboutus-wrapper">
                 <img src="<?php echo CFS()->get('vision_image'); ?>" alt="Visión">
                 <div class="aboutus">
@@ -76,7 +76,7 @@
         	<?php $branchesArray = CFS()->get('branches_array'); ?>
 			<?php foreach($branchesArray as $branch) { ?>
             	<div class="branch-states-index">
-            	   	<a href="branches/">
+            	   	<a href="?page_id=112">
                    		<img src="<?php echo $branch['branch_image'] ?>" alt="<?php echo $branch['branch_text'] ?>">
                    		<p class="white uppercase"><?php echo $branch['branch_text'] ?></p>
                 	</a>
@@ -92,7 +92,7 @@
         <h3 class="lake-blue uppercase"><?php echo CFS()->get('help_heading'); ?></h3>
         <p class="small lime-green vertmargin-tiny"><?php echo CFS()->get('help_text'); ?></p>
         <div class="center-block vertmargin-small">
-            <a href="contacto/" class="btn blue-btn huge"><?php echo CFS()->get('help_button'); ?></a>
+            <a href="?page_id=111/" class="btn blue-btn huge"><?php echo CFS()->get('help_button'); ?></a>
         </div>
     </div>
 </div>

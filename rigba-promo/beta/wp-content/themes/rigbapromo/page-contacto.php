@@ -40,32 +40,7 @@
                 <p class="white"><?php echo CFS()->get('contact-phones');?></p>                
             </div>
             <div class="col-sm-8 col-lg-9">
-                <form action="" class="vertpadding">
-                    <div class="row vertmargin">
-                        <div class="col-md-6">
-                            <label for="name">Nombre</label>
-                            <input type="text" id=name>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email">Email</label>
-                            <input type="email" id="email">
-                        </div>
-                    </div>
-                    <div class="row vertmargin">
-                        <div class="col-md-6">
-                            <label for="phone">Teléfono</label>
-                            <input type="text" id="phone">
-                            <div class="vertmargin"></div>
-                            <label for="business">Nombre de la empresa</label>
-                            <input type="text" id="business">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="help">¿Cómo podemos ayudarte?</label>
-                            <textarea id="help" rows="5" cols="55"></textarea>
-                        </div>
-                    </div>
-                    <button class="btn green-btn pull-right">Enviar</button>
-                </form>
+                <?php echo do_shortcode( '[contact-form-7 id="161" title="Contacto Form"]' ); ?>
             </div>
         </div>
     </div>

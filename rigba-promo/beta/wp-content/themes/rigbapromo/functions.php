@@ -38,7 +38,12 @@ register_sidebar(array(
 	'before_widget' => '<div id="sidebar">',
 	'after_widget'  => '</div>',
 	'before_title' => '<div class="sidebar-head"><h4>',
-	'after_title' => '</h4></div>',
+	'after_title' => '</h4><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebarul" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						 </button></div>',
 ));
 
 ?>

@@ -397,8 +397,7 @@ body {
 }
 
 .aboutus-wrapper img {
-    position: relative;
-    top: -55px;
+    vertical-align: top;
 }
 
 .aboutus p {
@@ -420,7 +419,7 @@ body {
 	text-align: left;
 }
 
-.branchescontrol a:hover, .branch-states a:hover  {
+.branchescontrol a:hover, .branch-states a:hover, .branch-states-index a:hover  {
     text-decoration: none !important;
 }
 
@@ -565,6 +564,10 @@ footer a:hover {
     padding: 1px 20px;
 }
 
+#sidebar {
+	margin: 20px;
+}
+
 #sidebar ul {
 	background-color: #f1f1f1;
     padding: 5px 15px;
@@ -583,6 +586,27 @@ footer a:hover {
 #sidebar a:hover {
     text-decoration: none;
     color: #929292;
+}
+
+#sidebar h4 {
+	display: inline-block;
+}
+
+#sidebar .navbar-toggle {
+	margin-top: 7px;
+	height: 25px;
+	width: 25px;
+	background-color: #fff;
+	padding: 0px 3px;
+}
+
+#sidebar .navbar-toggle:hover, #sidebar .navbar-toggle:active {
+	background-color: #eee;
+}
+
+#sidebar .navbar-toggle .icon-bar {
+    background-color: #cecece;
+	width: 17px;
 }
 
 .opensans {
@@ -743,7 +767,7 @@ img.colors {
 .green-btn {
     background-color: #1bba4d;
     color: #fff !important;
-    min-width: 95px;
+    max-width: 95px;
 }
 
 .green-btn:hover {
@@ -819,6 +843,12 @@ img.colors {
     body {
     padding-top: 70px;
     }
+	
+	
+	.aboutus-wrapper img {
+        display: block;
+        margin: 30px auto;
+    }
     
     .main-nav {
         margin: 3px 0px;
@@ -844,10 +874,30 @@ img.colors {
         padding:  15px 6px;
     }
 	
+	.aboutus {
+		border-left: none;
+		margin-right: 20px;
+		padding-right: 40px;
+	}
+	
+	.aboutus p {
+		max-width: 100%;
+	}
+	
+	
 	.branch-states {
 		height: 46px;
 		border: 1px #e15a4c solid;
 		padding: 10px 0px 0px 10px;
+	}
+	
+	#products {
+		padding: 40px;
+	}
+	
+	#sidebar ul {
+		position: relative;
+		top: -4px;
 	}
 }
 
@@ -867,20 +917,25 @@ img.colors {
         border-bottom: #cbcbcb solid 1px;
         max-height: 50vh !important;
     }
+	
+	.map-data.border {
+		border-right: none;
+		margin-right: 0px;
+		padding-left:0px;
+		margin-left: 0px;
+		border-left: none;
+	}
+	
+	div.aboutus {
+		display: block;
+        margin: auto;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	#wpadminbar {
 	  position: fixed !important;
 	}
-]
-
-@media (max-width: 527px){
-    .aboutus-wrapper img {
-        top: 0px;
-        display: block;
-        margin: 30px auto;
-    }
 }
 
 /* END MEDIA QUERIES */

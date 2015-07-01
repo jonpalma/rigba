@@ -16,7 +16,7 @@
 						<a href="#chihuahua" role="tab" data-toggle="tab">
 							<div class="branch-states active">
 								<div>
-									<img src="<?php bloginfo('template_url'); ?>/img/content/branches/Chihuahua.png" alt="Chihuahua">
+									<img src="<?php bloginfo('template_url'); ?>/img/content/branches/chihuahua.png" alt="Chihuahua">
 								</div>
 								<p class="white uppercase">Chihuahua</p>
 							</div>
@@ -33,7 +33,6 @@
 							<div class="branch-states">
 								<div>
 									<img src="<?php bloginfo('template_url'); ?>/img/content/branches/coahuila.png" alt="Coahuila">
-									<img src="images/coahuila.png" alt="">
 								</div>
 								<p class="white uppercase">Coahuila</p>
 							</div>
@@ -42,7 +41,6 @@
 							<div class="branch-states">
 								<div>
 									<img src="<?php bloginfo('template_url'); ?>/img/content/branches/sonora.png" alt="Sonora">
-									<img src="images/sonora.png" alt="">
 								</div>
 								<p class="white uppercase">Sonora</p>
 							</div>
@@ -51,7 +49,6 @@
 							<div class="branch-states">
 								<div>
 									<img src="<?php bloginfo('template_url'); ?>/img/content/branches/durango.png" alt="Durango">
-									<img src="images/durango.png" alt="">
 								</div>
 								<p class="white uppercase">Durango</p>
 							</div>
