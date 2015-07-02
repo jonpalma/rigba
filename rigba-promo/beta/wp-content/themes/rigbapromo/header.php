@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Agencia Mixen www.mixen.mx">
-<meta name="description" content="Poda mecánica de árboles y huertos. De los principales efectos en la aplicación de podar con nosotros se encuentra una mejora en la calidad de la nuez al incrementar su tamaño y la relación almendra, lo cual favorece el ingreso del producto al mercado.">
-<meta name="keywords" content="poda mecánica chihuahua, poda mecánica, poda, chihuahua, nogales, huertos, crecimiento, mejora en la calidad, maquinaria, formacion, mantenimiento, luz, formación, árboles, huerto">
+<meta name="description" content="En Rigba Group nos dedicamos a la comercialización e impresión en artículos promocionales, viniles y lonas así como a la venta de máquinas de impresión a gran formato e insumos derivados.">
+<meta name="keywords" content="artículos promocionales, articulos promocionales, artículos publicitarios, articulos publicitarios, regalos promocionales, todo promocional, promocional, promocionales">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>RIGBA</title>
 
