@@ -8,48 +8,20 @@
 		<h1 class="opensans bold"><?php echo CFS()->get('catalog_header'); ?></h1>
 		<div class="small-border center-block"></div>
 	</div>
-	<div class="row vertmargin">
+	<?php $catalogArray = CFS()->get('catalog_array'); ?>
+	<?php $arraySize = count($catalogArray) ?>
+	<?php for($i = 0; $i < $arraySize; $i++) { ?>
+		<?php if($i % 3 == 0) {echo "<div class='row vertmargin'>";} ?>
 		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php bloginfo('template_url');?>/img/content/catalog/1.png" class="img-responsive"></div>
-			<p class="vertmargin-tiny bold pink-purple">ARTÍCULOS PUBLICITARIOS</p>
+			<div class="hover-overlay"><img src="<?php echo $catalogArray[$i]['catalog_image']; ?>" class="img-responsive"></div>
+			<p class="vertmargin-tiny bold pink-purple"><?php echo $catalogArray[$i]['catalog_title']; ?></p>
 			<div class="center-block slight-border"></div>
-			<p>En este catálogo podrás conocer nuestros nuevos modelos y diseños para tazas. <br><span class="pink-purple">Categoría:</span> <i>Tazas</i></p>
-		</div>
-		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php bloginfo('template_url');?>/img/content/catalog/2.png" class="img-responsive"></div>
-			<p class="vertmargin-tiny bold pink-purple">ARTÍCULOS PUBLICITARIOS</p>
-			<div class="center-block slight-border"></div>
-			<p>En este catálogo podrás conocer nuestros nuevos modelos y diseños para tazas. <br><span class="pink-purple">Categoría:</span> <i>Tazas</i></p>
-		</div>
-		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php bloginfo('template_url');?>/img/content/catalog/3.png" class="img-responsive"></div>
-			<p class="vertmargin-tiny bold pink-purple">ARTÍCULOS PUBLICITARIOS</p>
-			<div class="center-block slight-border"></div>
-			<p>En este catálogo podrás conocer nuestros nuevos modelos y diseños para tazas. <br><span class="pink-purple">Categoría:</span> <i>Tazas</i></p>
-		</div>
-	</div>
-	<div class="row vertmargin">
-		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php bloginfo('template_url');?>/img/content/catalog/1.png" class="img-responsive"></div>
-			<p class="vertmargin-tiny bold pink-purple">ARTÍCULOS PUBLICITARIOS</p>
-			<div class="center-block slight-border"></div>
-			<p>En este catálogo podrás conocer nuestros nuevos modelos y diseños para tazas. <br><span class="pink-purple">Categoría:</span> <i>Tazas</i></p>
-		</div>
-		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php bloginfo('template_url');?>/img/content/catalog/2.png" class="img-responsive"></div>
-			<p class="vertmargin-tiny bold pink-purple">ARTÍCULOS PUBLICITARIOS</p>
-			<div class="center-block slight-border"></div>
-			<p>En este catálogo podrás conocer nuestros nuevos modelos y diseños para tazas. <br><span class="pink-purple">Categoría:</span> <i>Tazas</i></p>
-		</div>
-		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php bloginfo('template_url');?>/img/content/catalog/3.png" class="img-responsive"></div>
-			<p class="vertmargin-tiny bold pink-purple">ARTÍCULOS PUBLICITARIOS</p>
-			<div class="center-block slight-border"></div>
-			<p>En este catálogo podrás conocer nuestros nuevos modelos y diseños para tazas. <br><span class="pink-purple">Categoría:</span> <i>Tazas</i></p>
-		</div>
-	</div>
+			<p><?php echo $catalogArray[$i]['catalog_description']; ?><br><span class="pink-purple">Categoría:</span> <i><?php echo $catalogArray[$i]['catalog_category']; ?></i></p>
+		</div>			
+		<?php if($i % 3 == 2 || ($i + 1) == $arraySize) {echo "</div>";} ?>
+	<?php } ?>
 		
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
 				<div class="row pages">
@@ -67,7 +39,7 @@
 				</div>
 			</div>
 			<div class="col-md-2"></div>
-		</div>
+		</div>-->
 	</div>
 </div>
 <br class="vertmargin">

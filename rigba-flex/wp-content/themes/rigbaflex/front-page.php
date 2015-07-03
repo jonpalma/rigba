@@ -10,15 +10,18 @@
 <div class="container vertmargin">
 	<h2 class="dark-gray uppercase"><?php echo CFS()->get('brands_header'); ?></h2>
  	<div class="row vertmargin-big">
-    	<?php $brandsArray = CFS()->get('brands_array'); ?>	       
-		<?php foreach($brandsArray as $brand) { ?>
+    	<?php $brandsArray = CFS()->get('brands_array'); ?>	  
+    	<?php $arrayLength = count($brandsArray); ?>     
+		<?php for($i = 0; $i < $arrayLength; $i++) { ?>
+			<?php if($i % 4 == 0) {echo "<div class='row'>";} ?>
 			<div class="col-sm-6 col-lg-3">
 				<div class="ourbrands">
-					<img src="<?php echo $brand['brand_image'] ?>" alt="<?php echo $brand['brand_name'] ?>">
-					<p><?php echo $brand['brand_name'] ?></p>
+					<img src="<?php echo $brandsArray[$i]['brand_image'] ?>" alt="<?php echo $brandsArray[$i]['brand_name'] ?>">
+					<p><?php echo $brandsArray[$i]['brand_name'] ?></p>
 				</div>
 			</div>
-		<?php } ?>      
+			<?php if($i % 4 == 3 || ($i + 1) == $arrayLength) {echo "</div>";} ?>
+		<?php } ?>     
     </div>
 </div>
 <!-- END OURBRANDS -->

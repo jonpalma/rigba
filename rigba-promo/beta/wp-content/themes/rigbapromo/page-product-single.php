@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="col-sm-3 col-md-2">
-           	<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('Categorias') ) : endif; ?> 
+           	<?php include('sidebar.php'); ?>
         </div>
     </div>
 </div>

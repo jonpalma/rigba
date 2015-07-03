@@ -245,6 +245,10 @@ div.slight-border {
     opacity:1;
 }
 
+div.wpcf7-response-output {
+	background-color: #eee;
+}
+
 /* END GENERAL STYLES */
 
 /* BEGIN BODY */
@@ -422,7 +426,7 @@ body {
 }
 
 .branchescontrol {
-	border: 2px #e15a4c solid;
+	border: 2px #ff1479 solid;
 }
 
 #branches .branch-states {
@@ -466,7 +470,7 @@ body {
 }
 
 #branches .branch-states img, #branches .branch-states p {
-	color: #e15a4c;
+	color: #ff1479;
 	display: inline-block;
 	text-align: left;
 	text-transform: capitalize;
@@ -577,7 +581,7 @@ footer a:hover {
 .sidebar-head {
     background-color: #cc1869;
     color: white;
-    padding: 1px 20px;
+    padding: 1px 0px 1px 20px;
 }
 
 #sidebar {
@@ -609,21 +613,25 @@ footer a:hover {
 }
 
 #sidebar .navbar-toggle {
-	margin-top: 7px;
+	background: url(img/slider/collapse.png) center center no-repeat;
 	height: 25px;
 	width: 25px;
-	background-color: #fff;
-	padding: 0px 3px;
+	margin-right: 10px !important;
+	border: none;
+}
+
+#sidebar .navbar-toggle.collapsed {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 #sidebar .navbar-toggle:hover, #sidebar .navbar-toggle:active {
-	background-color: #eee;
+	background-color: rgba(0,0,0,0.3);
 }
 
-#sidebar .navbar-toggle .icon-bar {
-    background-color: #cecece;
-	width: 17px;
-}
 
 .opensans {
     font-family: Open Sans;
@@ -751,17 +759,18 @@ img.colors {
 
 .white-btn {
     background-color: #fff;
-    color: #0186b6 !important;    
+    color: #cc1869 !important;    
 }
 
 .white-btn:hover {
     background-color: #e3e3e3;
-    color: #0179A4 !important;
+    color: #ca1667 !important;
 }
 
 .purple-btn {
 	background-color: #cc1869;
 	color: #fff !important;
+	min-width: 102px;
 }
 
 .purple-btn:hover {

@@ -1,5 +1,10 @@
 <div id="sidebar">
-	<div class="sidebar-head"><h4>Categorías</h4></div>
+	<div class="sidebar-head">
+		<h4>Categorías</h4>
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebarul" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+		</button>		
+	</div>
 	<div class="sidebar-content">
 		<ul class="plain-list">
 			<li><a href="#">Agendas</a></li>
