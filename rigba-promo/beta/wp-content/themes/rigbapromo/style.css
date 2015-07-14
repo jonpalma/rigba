@@ -380,6 +380,15 @@ body {
     text-align: center;
 }
 
+a.dark {
+	color: #444;
+}
+
+a.dark:hover {
+	color: #A51717;
+	text-decoration: none;
+}
+
 .ourbrands p {
     text-transform: uppercase;
     margin: 20px 40px;
@@ -494,12 +503,9 @@ body {
 	margin-bottom: 20px;
 }
 
-.map-data.border {
-    border-right: 2px solid #E15A4C;
-    margin-right: 5px;
-    padding-left: 65px;
-	margin-left: -50px;
-    border-left: 2px solid #E15A4C;
+.map-data * {
+	text-align: left;
+	margin: 0px;
 }
 
 div.contact-form {
@@ -924,14 +930,6 @@ img.colors {
         border-bottom: #cbcbcb solid 1px;
         max-height: 50vh !important;
     }
-	
-	.map-data.border {
-		border-right: none;
-		margin-right: 0px;
-		padding-left:0px;
-		margin-left: 0px;
-		border-left: none;
-	}
 	
 	div.aboutus {
 		display: block;

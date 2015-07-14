@@ -13,7 +13,7 @@
 	<?php for($i = 0; $i < $arraySize; $i++) { ?>
 		<?php if($i % 3 == 0) {echo "<div class='row vertmargin'>";} ?>
 		<div class="col-sm-4">
-			<div class="hover-overlay"><img src="<?php echo $catalogArray[$i]['catalog_image']; ?>" class="img-responsive"></div>
+			<a href="<?php echo $catalogArray[$i]['catalog_link']; ?>"><div class="hover-overlay"><img src="<?php echo $catalogArray[$i]['catalog_image']; ?>" class="img-responsive"></div></a>
 			<p class="vertmargin-tiny bold pink-purple"><?php echo $catalogArray[$i]['catalog_title']; ?></p>
 			<div class="center-block slight-border"></div>
 			<p><?php echo $catalogArray[$i]['catalog_description']; ?><br><span class="pink-purple">Categoría:</span> <i><?php echo $catalogArray[$i]['catalog_category']; ?></i></p>

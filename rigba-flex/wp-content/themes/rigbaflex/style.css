@@ -208,6 +208,15 @@ div.slight-border {
     color: #f5883c;
 }
 
+.dark {
+	color: #333;
+}
+
+a.dark:hover {
+	color: #0091BA;
+	text-decoration: none;
+}
+
 /* Hover image overlay */
 
 .hover-overlay {
@@ -510,12 +519,9 @@ body {
 	margin-bottom: 20px;
 }
 
-.map-data.border {
-    border-right: 2px solid #ff1479;
-    margin-right: 5px;
-    padding-left: 65px;
-	margin-left: -50px;
-    border-left: 2px solid #ff1479;
+.map-data * {
+	text-align: left;
+	margin: 0px;
 }
 
 div.contact-form {
