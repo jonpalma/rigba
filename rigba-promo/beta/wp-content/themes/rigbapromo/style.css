@@ -1,6 +1,6 @@
 /*
 Theme Name:Rigba Promo
-Theme URL: http://www.rigba-promo.com/site
+Theme URL: http://www.rigba-promo.com/
 Author: Agencia Mixen
 Author URI: http://mixen.mx/
 Description: Tema para el sitio de Rigba Promo.
@@ -375,6 +375,17 @@ body {
 /* END CAROUSEL */
 
 /* BEGIN SECTION DIVs */
+.our-sites-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.our-sites {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
 .ourbrands {
     margin: auto;
     text-align: center;

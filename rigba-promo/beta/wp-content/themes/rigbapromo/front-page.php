@@ -2,7 +2,7 @@
 <!-- BEGIN SLIDER -->
 <div class="container-fluid">
     <div class="row">
-       	<?php if( function_exists('cyclone_slider') ) cyclone_slider('index-slideshow'); ?>
+       	<?php putRevSlider("rigbapromo") ?>
     </div>
 </div>
 <!-- END SLIDER -->

@@ -51,17 +51,15 @@
 	<div class="container">
 		<h1 class="opensans bold"><?php echo CFS()->get('our-websites-header');?></h1>
 		<h3 class="opensans"><?php echo CFS()->get('our-websites-subheader');?></h3>
-		<div class="row vertmargin">
-			<div class="col-sm-4">
-				<img class="vertmargin img-responsive center-block" src="<?php echo CFS()->get('our-websites-firstimage'); ?>">
-			</div>
-			<div class="col-sm-4">
-				<img class="vertmargin img-responsive center-block" src="<?php echo CFS()->get('our-websites-secondimage'); ?>">
-			</div>
-			<div class="col-sm-4">
-				<img class="vertmargin img-responsive center-block" src="<?php echo CFS()->get('our-websites-thirdimage'); ?>">
-			</div>
+		<div class="our-sites-wrapper">
+			<?php $sites = CFS()->get('our_sites') ?>
+			<?php for($i = 0; $i < count($sites); $i++) { ?>
+				<a href="#<?php echo $sites[$i]['site_link']; ?>">
+					<img class="our-sites" src="<?php echo $sites[$i]['site_image']; ?>" alt="<?php echo $sites[$i]['site_link']; ?>">
+				</a>						
+			<?php } ?>
 		</div>
+		
 	</div>
 </div>
 <!-- END OUR WEBSITES -->
